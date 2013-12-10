@@ -22,5 +22,7 @@ setup(
     author_email='splice-devel@redhat.com',
     description='Common code for manipulating X.509 certificates',
     url='https://github.com/splice/python-certutils.git',
-    packages=find_packages(),
+    packages    = ["certutils"],
+    package_dir = {"certutils" : "src/certutils" }
+
 )
